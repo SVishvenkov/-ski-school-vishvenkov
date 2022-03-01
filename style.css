@@ -1,0 +1,17 @@
+.img img {
+width: 200px;;
+height: 200px;
+
+}
+.img {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+header {
+    background-color: #66d1ff;
+}
+.footer {
+    background-color: white;
+
+}
