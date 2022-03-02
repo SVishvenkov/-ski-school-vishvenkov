@@ -1,27 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <p class="left"><input type="button" name="Начать учиться"value="начать учиться" class="left"></p>
-        <p class="center"><img src="image/ski.png" alt="Logo"></p>
-        <p class="phone">+7 800 800-00-00</p>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="btn">Начать учиться</a>
+          </li>
+          <li class="nav-item">
+            <p class="nav-item">Skiing school</p>
+          </li>
+          <li class="nav-item">
+            <a href="tel:+">7 800 800-00-00</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+
     <main class="main">
-        <section class="sec1">
-            <h1>Обучение горным лыжам в Санкт-Петербурге</h1>
-        <p>Учим на склонах Игоры, Охта-Парка и на базе собственной<br>
-             тренировочной базы в центре города с применением<br> уникального тренажера, имитирующего склон</p>
-        </section>
-        <section class="sec2">
-            <h2>Учиться с нами увлекательно и эффективно</h2>
-            <table>
+      <section class="promo">
+        <h1>Обучение горным лыжам в Санкт-Петербурге</h1>
+        <p>
+          Учим на склонах Игоры, Охта-Парка и на базе собственной<br />
+          тренировочной базы в центре города с применением<br />
+          уникального тренажера, имитирующего склон
+        </p>
+      </section>
+      <section class="features">
+        <h2 class="features-title">Учиться с нами увлекательно и эффективно</h2>
+
+        <div class="features-item">
+          <h3 class="features-heading">Мы профи</h3>
+          <p class="features-desc">
+            Наши инструктора - мастера спорта, призеры российских и
+            международных стартов.
+          </p>
+        </div>
+        <div class="features-item">
+          <h3 class="features-heading">2000+</h3>
+          <p class="features-desc">
+            Довольных райдеров рассекает на заснеженных склонах. И это наша
+            заслуга :)
+          </p>
+        </div>
+        <div class="features-item">
+          <h3 class="features-heading">Учим 365 дней в году</h3>
+          <p class="features-desc">
+            У нас есть крутой тренажер, имитирующий реальный склон площадью 50м.
+            кв
+          </p>
+        </div>
+        <div class="features-item">
+          <h3 class="features-heading">20+</h3>
+          <p class="features-desc">
+            Наград завоевали наши ученики на регионалных и международных
+            соревнованиях
+          </p>
+        </div>
+        <div class="features-item">
+          <h3 class="features-heading">ПОдари лыжу</h3>
+          <p class="features-desc">
+            Наш благотворительный проект - помогаем сиротам приобщиться к спорту
+            и наладить жизнь
+          </p>
+        </div>
+        <div class="features-item">
+          <h3 class="features-heading">Закрытый клуб</h3>
+          <p class="features-desc">
+            Наши студенты попадают на закрытые мастер-классы и вечеринки
+          </p>
+        </div>
+
+        <!-- <table>
                 <tr>
                     <th>Мы профи</th>
                     <th>2000+</th>
@@ -38,31 +95,47 @@
                     <td>Наш благотворительный проект - помогаем сиротам приобщиться к спорту и наладить жизнь</td>
                     <td>Наши студенты попадают на закрытые мастер-классы и вечеринки</td>
                 </tr>
-            </table>
-        </section>
-        <section class="sec3">
-            <h2>ГОУ! ПОКОРЯТЬ СКЛОНЫ ВМЕСТЕ</h2>
-            <p><input type="button" name="Начать учиться"value="начать учиться"></p>
-            <div class="img">
-                <img src="image/foot1.jpg" alt="">
-                <img src="image/foot2.jpg" alt="">
-                <img src="image/foot3.jpg" alt="">
-                <img src="image/foot4.jpg" alt="">
-                
-            </div>
-
-        </section>
-        
+            </table> -->
+      </section>
+      <section class="lead">
+        <h2 class="lead-text">ГОУ! ПОКОРЯТЬ СКЛОНЫ ВМЕСТЕ</h2>
+        <a href="#" class="btn">Начать учиться</a>
+        <div class="img-lead">
+          <img src="image/foot1.jpg" alt="" />
+          <img src="image/foot2.jpg" alt="" />
+          <img src="image/foot3.jpg" alt="" />
+          <img src="image/foot4.jpg" alt="" />
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <p>Присоединяйся</p>
-        <img src="https://img.icons8.com/glyph-neue/64/000000/twitter-circled.png"/>
-        <img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"/>
-        <img src="https://img.icons8.com/material-rounded/24/000000/google-logo.png"/>
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png"/>
-        <p>copy+v copy+c © 2021</p>
+        <ul class="social">
+            <li class="social-items">
+                <p class="soc-link">Присоединяйся</p>
+            </li>
+            <li class="social-items">
+                <a href="#" class="social-link" title="На twitter">twitter</a>
+            </li>
+            <li class="social-items">
+                <a href="#" class="social-link" title="На LinkedIn">LinkedIn</a>
+            </li>
+            <li class="social-items">
+                <a href="#" class="social-link" title="На Google+">Google+</a>
+            </li>
+            <li class="social-items">
+                <a href="#" class="social-link" title="На Facebook">Facebook</a>
+            </li>
+        </ul>
+      <!-- <p>Присоединяйся</p>
+      <img
+        src="https://img.icons8.com/glyph-neue/64/000000/twitter-circled.png"
+      />
+      <img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" />
+      <img
+        src="https://img.icons8.com/material-rounded/24/000000/google-logo.png"
+      />
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png" />
+      <p>copy+v copy+c © 2021</p> -->
     </footer>
-
-    
-</body>
+  </body>
 </html>
