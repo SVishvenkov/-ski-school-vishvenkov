@@ -1,54 +1,54 @@
 .btn {
-    text-decoration: none;
-    font-weight: 500px;
-    font-size: 36px;
-    line-height: 44px;
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 36px;
+  line-height: 44px;
 }
 .number {
-    text-decoration: none;
-    font-weight: 500px;
-    font-size: 28px;
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 28px;
 }
 .promo h1 {
-    font-weight: 500px;
-    font-size: 60px;
-    line-height: 89px;
+  font-weight: 500px;
+  font-size: 60px;
+  line-height: 89px;
 }
 .promo p {
-    font-weight: 500px;
-font-size: 32px;
-line-height: 39px;
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: 39px;
 }
 
 .features-title {
-    font-weight: 500px;
-    font-size: 48px;
-    line-height: 167%;
+  font-weight: 500px;
+  font-size: 48px;
+  line-height: 167%;
 }
 
 .features-heading {
-    font-weight: 500px;
-    font-size: 32px;
-    line-height: 167%;
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: 167%;
 }
 
 .features-desc {
-    font-size: 26px;
-    line-height: 140%;
+  font-size: 26px;
+  line-height: 140%;
 }
 .lead-text {
-    font-weight: 500px;
-    font-size: 48px;
-    line-height: 167%;
+  font-weight: 500px;
+  font-size: 48px;
+  line-height: 167%;
 }
 
 .soc-link {
-    font-weight: 500px;
-    font-size: 20px;
-    line-height: 167%;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 167%;
 }
 .copyright {
-    font-weight: 500px;
-    font-size: 18px;
-    line-height: 22px;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 22px;
 }
