@@ -1,54 +1,108 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* oswald-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/oswald-v47-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v47-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* common */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  background: #66D1FF;
+}
+/* header */
+
 .btn {
   text-decoration: none;
-  font-weight: 500px;
   font-size: 36px;
   line-height: 44px;
 }
 .number {
   text-decoration: none;
-  font-weight: 500px;
   font-size: 28px;
 }
+/* promo */
 .promo h1 {
-  font-weight: 500px;
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 89px;
+  
 }
 .promo p {
-  font-weight: 500px;
   font-size: 32px;
   line-height: 39px;
 }
+.promo {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+
+}
+
+/* features */
 
 .features-title {
-  font-weight: 500px;
+  font-family: 'Oswald', sans-serif;
   font-size: 48px;
   line-height: 167%;
 }
 
 .features-heading {
-  font-weight: 500px;
+  font-family: 'Oswald';
   font-size: 32px;
   line-height: 167%;
 }
 
 .features-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400px;
   font-size: 26px;
   line-height: 140%;
+  opacity: 0.8;
 }
+
+/* lead */
 .lead-text {
-  font-weight: 500px;
+  font-family: 'Oswald' sans-serif;
   font-size: 48px;
   line-height: 167%;
 }
 
+
+/* footer */
+.footer{
+  background: #060D10;
+  color: #FFFFFF;
+
+}
 .soc-link {
-  font-weight: 500px;
   font-size: 20px;
   line-height: 167%;
 }
 .copyright {
-  font-weight: 500px;
   font-size: 18px;
   line-height: 22px;
 }
