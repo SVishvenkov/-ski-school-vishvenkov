@@ -31,7 +31,7 @@
 /* common */
 body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   background: #66D1FF;
 }
 /* header */
@@ -40,26 +40,49 @@ body {
   text-decoration: none;
   font-size: 36px;
   line-height: 44px;
+  
 }
 .number {
   text-decoration: none;
   font-size: 28px;
+  line-height: 34px;
+  color: #060D10;
 }
 /* promo */
+
+.promo {
+  /* background-image: url(/image/promo.png); */
+
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+}
+.promo img {
+  position: absolute;
+  width: 1440px;
+  height: 766px;
+  left: 0px;
+  top: 112px;
+  background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25)), url(.png);
+} 
+
 .promo h1 {
+  /* position: absolute;
+  width: 1278px;
+  height: 89px;
+  left: 81px;
+  top: 240px; */
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 89px;
-  
 }
 .promo p {
+  /* position: absolute;
+  height: 117px;
+  left: 190px;
+  right: 190px;
+  top: 389px; */
   font-size: 32px;
   line-height: 39px;
-}
-.promo {
-  color: #FFFFFF;
-  text-shadow: 1px 1px 2px #060D10;
-
 }
 
 /* features */
@@ -86,7 +109,7 @@ body {
 
 /* lead */
 .lead-text {
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 48px;
   line-height: 167%;
 }
