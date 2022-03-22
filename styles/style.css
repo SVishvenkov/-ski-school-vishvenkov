@@ -31,22 +31,45 @@
 }
 
 /* common */
+
+* {
+  /* примени ко всем элементам */
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  background: rgba(102, 209, 255, 0.1);
+  background: rgba(196, 196, 196, 43.86%);
+}
+
+img {
+  display: block; /* убирает отступ под изображением */
+  max-width: 100%;
 }
 
 .container {
   width: 1278px;
   margin: 0 auto;
-  border: 1px solid #f00;
 }
 /* header */
 
 .header {
   background: #66d1ff;
   padding: 31px;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 298px; 
+  height: 53px;
+  fill: none;
 }
 
 .btn {
@@ -88,13 +111,25 @@ body {
 .features {
   padding: 170px 0px;
   text-align: center;
-  
+  display: flex;
+  background: rgba(102, 209, 255, .1);
+}
+
+.features-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.features-item {
+  width: 33.33%;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .features-title {
   font-family: "Oswald", sans-serif;
   font-size: 48px;
   line-height: 167%;
+  margin: 50px 0;
 }
 
 .features-heading {
@@ -111,10 +146,35 @@ body {
   opacity: 0.8;
 }
 
+/* .features-item.features-left {
+margin: 50px 15px 35px 0px;
+}
+
+.features-item.features-center {
+  margin: 50px 15px 35px ;
+}
+
+.features-item.features-right {
+  margin: 50px 0px 35px 15px;
+} */
+
 /* lead */
 .lead {
   padding: 170px 0px 180px;
   text-align: center;
+  background: linear-gradient(208.35deg,
+   rgba(102, 209, 255, .1) 43.85%,
+   rgba(196, 196, 196, 0) 43.86%);
+}
+
+.lead-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lead-wrap {
+  margin:130px 0 180px ;
 }
 
 .lead-text {
@@ -128,11 +188,61 @@ body {
   background: #060d10;
   color: #ffffff;
 }
+
+.footer-wrap {
+display: flex;
+align-items: center;
+}
+
+.footer-social  {
+  width: 41.65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copy {
+  width: 58.31%;
+  justify-content: flex-end;
+}
+
 .soc-link {
   font-size: 20px;
   line-height: 167%;
+  margin: 40px;
 }
+
+.social-link {
+  margin: 10px;
+}
+
 .copyright {
   font-size: 18px;
   line-height: 22px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.twit {
+  width: 40px;
+  height: 40px;
+  fill: none;
+}
+
+.linked {
+  width: 40px;
+  height: 40px;
+  fill: none;
+}
+
+.go {
+  width: 40px;
+  height: 40px;
+  fill: none;
+}
+
+.fc {
+  width: 40px;
+  height: 40px;
+  fill: none;
 }
