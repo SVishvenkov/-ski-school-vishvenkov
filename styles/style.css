@@ -100,7 +100,8 @@ img {
   padding: 240px 0 260px;
   margin: 0 auto;
   text-align: center;
-  background-image: url(../image/promo.png);
+  background-image: linear-gradient(0deg, rgba(6, 13, 16, 0.25),
+   rgba(6, 13, 16, 0.25)), url(../image/promo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
